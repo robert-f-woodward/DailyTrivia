@@ -50,6 +50,11 @@
 			path = DailyTriviaUITests;
 			sourceTree = "<group>";
 		};
+		35049AEA2E50E20300C10596 /* screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 		35049AB02E50AEE800C10596 = {
 			isa = PBXGroup;
 			children = (
+				35049AEA2E50E20300C10596 /* screenshots */,
 				35049AE82E50B6A500C10596 /* README.md */,
 				35049ABB2E50AEE800C10596 /* DailyTrivia */,
 				35049ACA2E50AEE900C10596 /* DailyTriviaTests */,
@@ -115,6 +121,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				35049ABB2E50AEE800C10596 /* DailyTrivia */,
+				35049AEA2E50E20300C10596 /* screenshots */,
 			);
 			name = DailyTrivia;
 			packageProductDependencies = (
