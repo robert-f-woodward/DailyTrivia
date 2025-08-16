@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		35049AC82E50AEE900C10596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35049AB12E50AEE800C10596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35049AB82E50AEE800C10596;
+			remoteInfo = DailyTrivia;
+		};
+		35049AD22E50AEE900C10596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35049AB12E50AEE800C10596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35049AB82E50AEE800C10596;
+			remoteInfo = DailyTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35049AB92E50AEE800C10596 /* DailyTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35049AC72E50AEE900C10596 /* DailyTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35049AD12E50AEE900C10596 /* DailyTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		35049ABB2E50AEE800C10596 /* DailyTrivia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DailyTrivia;
+			sourceTree = "<group>";
+		};
+		35049ACA2E50AEE900C10596 /* DailyTriviaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DailyTriviaTests;
+			sourceTree = "<group>";
+		};
+		35049AD42E50AEE900C10596 /* DailyTriviaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DailyTriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35049AB62E50AEE800C10596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35049AC42E50AEE900C10596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35049ACE2E50AEE900C10596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35049AB02E50AEE800C10596 = {
+			isa = PBXGroup;
+			children = (
+				35049ABB2E50AEE800C10596 /* DailyTrivia */,
+				35049ACA2E50AEE900C10596 /* DailyTriviaTests */,
+				35049AD42E50AEE900C10596 /* DailyTriviaUITests */,
+				35049ABA2E50AEE800C10596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35049ABA2E50AEE800C10596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35049AB92E50AEE800C10596 /* DailyTrivia.app */,
+				35049AC72E50AEE900C10596 /* DailyTriviaTests.xctest */,
+				35049AD12E50AEE900C10596 /* DailyTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35049AB82E50AEE800C10596 /* DailyTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35049ADB2E50AEE900C10596 /* Build configuration list for PBXNativeTarget "DailyTrivia" */;
+			buildPhases = (
+				35049AB52E50AEE800C10596 /* Sources */,
+				35049AB62E50AEE800C10596 /* Frameworks */,
+				35049AB72E50AEE800C10596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				35049ABB2E50AEE800C10596 /* DailyTrivia */,
+			);
+			name = DailyTrivia;
+			packageProductDependencies = (
+			);
+			productName = DailyTrivia;
+			productReference = 35049AB92E50AEE800C10596 /* DailyTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35049AC62E50AEE900C10596 /* DailyTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35049ADE2E50AEE900C10596 /* Build configuration list for PBXNativeTarget "DailyTriviaTests" */;
+			buildPhases = (
+				35049AC32E50AEE900C10596 /* Sources */,
+				35049AC42E50AEE900C10596 /* Frameworks */,
+				35049AC52E50AEE900C10596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35049AC92E50AEE900C10596 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				35049ACA2E50AEE900C10596 /* DailyTriviaTests */,
+			);
+			name = DailyTriviaTests;
+			packageProductDependencies = (
+			);
+			productName = DailyTriviaTests;
+			productReference = 35049AC72E50AEE900C10596 /* DailyTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35049AD02E50AEE900C10596 /* DailyTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35049AE12E50AEE900C10596 /* Build configuration list for PBXNativeTarget "DailyTriviaUITests" */;
+			buildPhases = (
+				35049ACD2E50AEE900C10596 /* Sources */,
+				35049ACE2E50AEE900C10596 /* Frameworks */,
+				35049ACF2E50AEE900C10596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35049AD32E50AEE900C10596 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				35049AD42E50AEE900C10596 /* DailyTriviaUITests */,
+			);
+			name = DailyTriviaUITests;
+			packageProductDependencies = (
+			);
+			productName = DailyTriviaUITests;
+			productReference = 35049AD12E50AEE900C10596 /* DailyTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35049AB12E50AEE800C10596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					35049AB82E50AEE800C10596 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					35049AC62E50AEE900C10596 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 35049AB82E50AEE800C10596;
+					};
+					35049AD02E50AEE900C10596 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 35049AB82E50AEE800C10596;
+					};
+				};
+			};
+			buildConfigurationList = 35049AB42E50AEE800C10596 /* Build configuration list for PBXProject "DailyTrivia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35049AB02E50AEE800C10596;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 35049ABA2E50AEE800C10596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35049AB82E50AEE800C10596 /* DailyTrivia */,
+				35049AC62E50AEE900C10596 /* DailyTriviaTests */,
+				35049AD02E50AEE900C10596 /* DailyTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35049AB72E50AEE800C10596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35049AC52E50AEE900C10596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35049ACF2E50AEE900C10596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35049AB52E50AEE800C10596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35049AC32E50AEE900C10596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35049ACD2E50AEE900C10596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35049AC92E50AEE900C10596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35049AB82E50AEE800C10596 /* DailyTrivia */;
+			targetProxy = 35049AC82E50AEE900C10596 /* PBXContainerItemProxy */;
+		};
+		35049AD32E50AEE900C10596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35049AB82E50AEE800C10596 /* DailyTrivia */;
+			targetProxy = 35049AD22E50AEE900C10596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35049AD92E50AEE900C10596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35049ADA2E50AEE900C10596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		35049ADC2E50AEE900C10596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DailyTrivia/DailyTrivia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.woodward.f.robert.DailyTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		35049ADD2E50AEE900C10596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DailyTrivia/DailyTrivia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.woodward.f.robert.DailyTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		35049ADF2E50AEE900C10596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.woodward.f.robert.DailyTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyTrivia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyTrivia";
+			};
+			name = Debug;
+		};
+		35049AE02E50AEE900C10596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.woodward.f.robert.DailyTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyTrivia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DailyTrivia";
+			};
+			name = Release;
+		};
+		35049AE22E50AEE900C10596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.woodward.f.robert.DailyTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DailyTrivia;
+			};
+			name = Debug;
+		};
+		35049AE32E50AEE900C10596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5T82U7C229;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.woodward.f.robert.DailyTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DailyTrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35049AB42E50AEE800C10596 /* Build configuration list for PBXProject "DailyTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35049AD92E50AEE900C10596 /* Debug */,
+				35049ADA2E50AEE900C10596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35049ADB2E50AEE900C10596 /* Build configuration list for PBXNativeTarget "DailyTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35049ADC2E50AEE900C10596 /* Debug */,
+				35049ADD2E50AEE900C10596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35049ADE2E50AEE900C10596 /* Build configuration list for PBXNativeTarget "DailyTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35049ADF2E50AEE900C10596 /* Debug */,
+				35049AE02E50AEE900C10596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35049AE12E50AEE900C10596 /* Build configuration list for PBXNativeTarget "DailyTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35049AE22E50AEE900C10596 /* Debug */,
+				35049AE32E50AEE900C10596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35049AB12E50AEE800C10596 /* Project object */;
+}
