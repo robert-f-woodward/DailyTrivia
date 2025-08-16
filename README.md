@@ -15,7 +15,7 @@ DailyTrivia fetches a random trivia question from the Open Trivia Database API a
 - Persistent storage of the daily question using UserDefaults.
 
 ## Screenshots
-[macOS Screenshot](./screenshots/macos_dailytrivia.png)
+![macOS Screenshot](./screenshots/macos_dailytrivia.png)
 
 ## Requirements
 - Xcode 15.0 or later
