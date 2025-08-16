@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		35049AE92E50B6A500C10596 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35049AE82E50B6A500C10596 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		35049AC82E50AEE900C10596 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		35049AB92E50AEE800C10596 /* DailyTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35049AC72E50AEE900C10596 /* DailyTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35049AD12E50AEE900C10596 /* DailyTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35049AE82E50B6A500C10596 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		35049AB02E50AEE800C10596 = {
 			isa = PBXGroup;
 			children = (
+				35049AE82E50B6A500C10596 /* README.md */,
 				35049ABB2E50AEE800C10596 /* DailyTrivia */,
 				35049ACA2E50AEE900C10596 /* DailyTriviaTests */,
 				35049AD42E50AEE900C10596 /* DailyTriviaUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35049AE92E50B6A500C10596 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = DailyTrivia/DailyTrivia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -421,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = DailyTrivia/DailyTrivia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
