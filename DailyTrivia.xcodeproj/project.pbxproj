@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		35049AE92E50B6A500C10596 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 35049AE82E50B6A500C10596 /* README.md */; };
+		35049AEE2E50E5C200C10596 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35049AED2E50E5B700C10596 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		35049AC72E50AEE900C10596 /* DailyTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35049AD12E50AEE900C10596 /* DailyTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35049AE82E50B6A500C10596 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		35049AED2E50E5B700C10596 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,6 +87,7 @@
 		35049AB02E50AEE800C10596 = {
 			isa = PBXGroup;
 			children = (
+				35049AED2E50E5B700C10596 /* LICENSE.txt */,
 				35049AEA2E50E20300C10596 /* screenshots */,
 				35049AE82E50B6A500C10596 /* README.md */,
 				35049ABB2E50AEE800C10596 /* DailyTrivia */,
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35049AEE2E50E5C200C10596 /* LICENSE.txt in Resources */,
 				35049AE92E50B6A500C10596 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
